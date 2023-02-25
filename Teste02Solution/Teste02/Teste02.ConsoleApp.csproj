@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Teste02.Domain\Teste02.Domain.csproj" />
+    <ProjectReference Include="..\Teste02.Infra.Data\Teste02.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
